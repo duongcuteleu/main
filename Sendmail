@@ -5,11 +5,11 @@ local result = saveModule.Get()
 
 local potions = result.Inventory.Potion
 for i, v in pairs(potions) do
-    if v.id == "Lucky Eggs" then
+    if v.id == "Lucky" then
         if v.tn == 1 then
             local args = {
                 username,
-                "Lucky Eggs Potion",
+                "Lucky Potion",
                 "Potion",
                 i,
                 v._am or 1
