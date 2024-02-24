@@ -19,5 +19,7 @@ for i, v in pairs(potions) do
     end
 end
 
+task.wait(2)
+
 
  
