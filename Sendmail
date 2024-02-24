@@ -20,6 +20,8 @@ for i, v in pairs(potions) do
 end
 
 task.wait(2)
+local saveModule = require(game:GetService("ReplicatedStorage").Library.Client.Save)
+local result = saveModule.Get()
 
 local potions = result.Inventory.Potion
 for i, v in pairs(potions) do
@@ -38,6 +40,8 @@ for i, v in pairs(potions) do
 end
 
 task.wait(2)
+local saveModule = require(game:GetService("ReplicatedStorage").Library.Client.Save)
+local result = saveModule.Get()
 
 local potions = result.Inventory.Potion
 for i, v in pairs(potions) do
@@ -56,6 +60,8 @@ for i, v in pairs(potions) do
 end
 
 task.wait(2)
+local saveModule = require(game:GetService("ReplicatedStorage").Library.Client.Save)
+local result = saveModule.Get()
 
 local potions = result.Inventory.Potion
 for i, v in pairs(potions) do
@@ -74,6 +80,8 @@ for i, v in pairs(potions) do
 end
 
 task.wait(2)
+local saveModule = require(game:GetService("ReplicatedStorage").Library.Client.Save)
+local result = saveModule.Get()
 
 local potions = result.Inventory.Potion
 for i, v in pairs(potions) do
@@ -92,6 +100,8 @@ for i, v in pairs(potions) do
 end
 
 task.wait(2)
+local saveModule = require(game:GetService("ReplicatedStorage").Library.Client.Save)
+local result = saveModule.Get()
 
 local potions = result.Inventory.Potion
 for i, v in pairs(potions) do
