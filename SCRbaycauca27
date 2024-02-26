@@ -1,0 +1,6 @@
+local saveModule = require(game:GetService("ReplicatedStorage").Library.Client.Save)
+local result = saveModule.Get()
+
+local n = workspace.__THINGS.Instances.Fishing.Teleports.Enter
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = n.CFrame
+
