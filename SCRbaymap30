@@ -1,0 +1,2 @@
+local n = workspace.__THINGS.Instances.Digsite.Teleports.Enter
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = n.CFrame
