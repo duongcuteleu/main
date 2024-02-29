@@ -1,4 +1,3 @@
-local saveModule = require(game:GetService("ReplicatedStorage").Library.Client.Save)
-local result = saveModule.Get()
+
 local m = workspace.Map["1 | Spawn"].INTERACT.Machines.MailboxMachine.Pad
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = m.CFrame
