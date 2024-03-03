@@ -11,26 +11,3 @@ local function findBlock()
         end
     end
     return block
-end
-
-local function findChest()
-    local dist = 9999
-    local chest = nil
-    for _, v in pairs(game:GetService("Workspace").__THINGS.__INSTANCE_CONTAINER.Active.Digsite.Important.ActiveChests:GetChildren()) do
-        if v:IsA("Model") then
-            local magnitude = (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - v.Top.Position).Magnitude
-            if magnitude <= dist then
-                dist = magnitude
-                chest = v
-            end
-        end
-    end
-    return chest
-end
-
-
-local noChestCount = os.clock()
-
-while getgenv().autoDigsite do
-    local chest = findChest()
-    local block = findBlock()
