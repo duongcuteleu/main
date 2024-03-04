@@ -4,7 +4,7 @@ getgenv().autoDigsiteConfig = {
     LOAD_DELAY = 5,
     CHEST_BREAK_DELAY = 1, -- Amount of time in seconds to wait before breaking a chest
     DIG_DEPTH = 120,
-    UNBROKEN_BLOCK_THRESHOLD = 100
+    UNBROKEN_BLOCK_THRESHOLD = 150
 }
 
 print(getgenv().autoDigsiteConfig.OPTIMIZE_GAME)
