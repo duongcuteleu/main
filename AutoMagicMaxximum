@@ -12,7 +12,7 @@ getgenv().autoDigsiteConfig = {
 local digsiteReset = false
 
 local positions = {
-    [1] = Vector3.new(14, 120, 3),
+    [1] = Vector3.new(14, 120, 1),
 }
 
 
