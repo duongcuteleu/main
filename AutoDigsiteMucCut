@@ -1,7 +1,5 @@
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/duongcuteleu/main/main/SCRbaymap79"))()
 
-task.wait(15)
 
 
 local OPTIMIZE_GAME = true -- Set to true to optimize the game by removing unnecessary parts
