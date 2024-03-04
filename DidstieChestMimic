@@ -3,7 +3,7 @@ getgenv().autoDigsiteConfig = {
     DIGSITE_RESET_DELAY = 10, -- Amount of time in seconds to wait before starting the script back up after the digsite resets
     LOAD_DELAY = 5,
     CHEST_BREAK_DELAY = 2, -- Amount of time in seconds to wait before breaking a chest
-    DIG_DEPTH = 80,
+    DIG_DEPTH = 120,
     UNBROKEN_BLOCK_THRESHOLD = 150
 }
 
@@ -166,16 +166,6 @@ local function beginCycle()
     end
     digsiteReset = false
 end
-
--- ANTI AFK --
-game.Players.LocalPlayer.PlayerScripts.Scripts.Core["Idle Tracking"].Enabled = false
-
-
-        game:GetService("VirtualUser"):Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-        task.wait(900)
-        game:GetService("VirtualUser"):Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-
--- ANTI AFK --
 
 
 if getgenv().autoDigsiteConfig.OPTIMIZE_GAME then
