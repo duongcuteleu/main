@@ -30,6 +30,22 @@ local function checkForChests()
 end
 
 
+
+                        if block then
+                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = block.CFrame + Vector3.new(0, 3, 0)
+                            game:GetService("ReplicatedStorage").Network:WaitForChild("Instancing_FireCustomFromClient"):FireServer("AdvancedDigsite", "DigBlock", block:GetAttribute('Coord'))
+                            task.wait()
+                            digMagicLiquid()
+                        end
+                    end
+
+                    digMagicLiquid()
+                end
+            end
+        end
+    end
+end
+
 local function beginCycle()
     for curPos, _ in positions do
         for _, v in pairs(game:GetService("Workspace").__THINGS.__INSTANCE_CONTAINER.Active.AdvancedDigsite.Important.ActiveBlocks:GetChildren()) do
