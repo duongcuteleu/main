@@ -71,7 +71,7 @@ local function beginCycle()
         for _, v in pairs(game:GetService("Workspace").__THINGS.__INSTANCE_CONTAINER.Active.AdvancedDigsite.Important.ActiveBlocks:GetChildren()) do
             if v:IsA("Part") then
                 if (v:GetAttribute("Coord") - positions[curPos]).Magnitude == 0 then
-                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame + Vector3.new(0, 3, 0)
+                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
 
                     local counter = 0
                     local function digBlock(depth)
@@ -88,7 +88,7 @@ local function beginCycle()
                             end
 
                             if block then
-                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = block.CFrame + Vector3.new(0, 3, 0)
+                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = block.CFrame
                                 game:GetService("ReplicatedStorage").Network:WaitForChild("Instancing_FireCustomFromClient"):FireServer("AdvancedDigsite", "DigBlock", block:GetAttribute('Coord'))
                                 task.wait()
                                 counter = counter + 1
@@ -115,7 +115,7 @@ local function beginCycle()
     while not digsiteReset do
         for _, v in pairs(game:GetService("Workspace").__THINGS.__INSTANCE_CONTAINER.Active.AdvancedDigsite.Important.ActiveBlocks:GetChildren()) do
             if v:IsA("Part") then
-                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame + Vector3.new(0, 3, 0)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
 
                 local counter = 0
                 local function digBlock()
@@ -132,7 +132,7 @@ local function beginCycle()
                         end
 
                         if block then
-                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = block.CFrame + Vector3.new(0, 3, 0)
+                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = block.CFrame
                             game:GetService("ReplicatedStorage").Network:WaitForChild("Instancing_FireCustomFromClient"):FireServer("AdvancedDigsite", "DigBlock", block:GetAttribute('Coord'))
                             task.wait()
                             counter = counter + 1
