@@ -32,7 +32,7 @@ local function checkForChests()
                 task.wait(getgenv().autoDigsiteConfig.CHEST_BREAK_DELAY)
                 game:GetService("ReplicatedStorage").Network:WaitForChild("Instancing_FireCustomFromClient"):FireServer("AdvancedDigsite", "DigChest", v:GetAttribute('Coord'))
                 v:Destroy()
-                task.wait()
+                task.wait(2)
             end)
         end
     end
@@ -105,7 +105,7 @@ local function beginCycle()
                             if block then
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = block.CFrame + Vector3.new(0, 3, 0)
                                 game:GetService("ReplicatedStorage").Network:WaitForChild("Instancing_FireCustomFromClient"):FireServer("AdvancedDigsite", "DigBlock", block:GetAttribute('Coord'))
-                                task.wait()
+                                task.wait(2)
                                 counter = counter + 1
                                 digBlock(depth)
                             end
@@ -120,7 +120,7 @@ local function beginCycle()
                         checkForChests()
                         checkForLake()
                         digBlock(i)
-                        task.wait()
+                        task.wait(2)
                     end
                 end
             end
@@ -150,7 +150,7 @@ local function beginCycle()
                         if block then
                             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = block.CFrame + Vector3.new(0, 3, 0)
                             game:GetService("ReplicatedStorage").Network:WaitForChild("Instancing_FireCustomFromClient"):FireServer("AdvancedDigsite", "DigBlock", block:GetAttribute('Coord'))
-                            task.wait()
+                            task.wait(2)
                             counter = counter + 1
                             digBlock()
                         end
@@ -163,7 +163,7 @@ local function beginCycle()
                 checkForChests()
                 checkForLake()
                 digBlock()
-                task.wait()
+                task.wait(2)
             end
         end
     end
@@ -235,7 +235,7 @@ end
 task.spawn(function()
     while #game:GetService("Workspace").__THINGS.__INSTANCE_CONTAINER.Active.AdvancedDigsite.Important.ActiveBlocks:GetChildren() > 336 do -- MAX WILL BE 999
 
-        task.wait()
+        task.wait(2)
     end
     digsiteReset = true
     print("Digsite Reset")
@@ -251,12 +251,12 @@ for _, lootbag in pairs(game:GetService("Workspace").__THINGS:FindFirstChild("Lo
     if lootbag then
         game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Lootbags_Claim"):FireServer(unpack( { [1] = { [1] = lootbag.Name, }, } ))
         lootbag:Destroy()
-        task.wait()
+        task.wait2)
     end
 end
 
 game:GetService("Workspace").__THINGS:FindFirstChild("Lootbags").ChildAdded:Connect(function(lootbag)
-    task.wait()
+    task.wait(2)
     if lootbag then
         game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Lootbags_Claim"):FireServer(unpack( { [1] = { [1] = lootbag.Name, }, } ))
         lootbag:Destroy()
@@ -264,7 +264,7 @@ game:GetService("Workspace").__THINGS:FindFirstChild("Lootbags").ChildAdded:Conn
 end)
 
 game:GetService("Workspace").__THINGS:FindFirstChild("Orbs").ChildAdded:Connect(function(orb)
-    task.wait()
+    task.wait(2)
     if orb then
         game:GetService("ReplicatedStorage").Network:FindFirstChild("Orbs: Collect"):FireServer(unpack( { [1] = { [1] = tonumber(orb.Name), }, } ))
         orb:Destroy()
