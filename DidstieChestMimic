@@ -3,7 +3,7 @@ getgenv().autoDigsiteConfig = {
     DIGSITE_RESET_DELAY = 10, -- Amount of time in seconds to wait before starting the script back up after the digsite resets
     LOAD_DELAY = 5,
     CHEST_BREAK_DELAY = 2, -- Amount of time in seconds to wait before breaking a chest
-    DIG_DEPTH = 120,
+    DIG_DEPTH = 80,
     UNBROKEN_BLOCK_THRESHOLD = 150
 }
 
@@ -35,6 +35,48 @@ local function checkForChests()
     end
 end
 
+local function checkForLake()
+    local foundLake = false
+    for _, v in pairs(game:GetService("Workspace").__THINGS.__INSTANCE_CONTAINER.Active.AdvancedDigsite.Important.ActiveBlocks:GetChildren()) do
+        if v:IsA("Part") then
+            if v:FindFirstChild("Firefly") then
+                foundLake = true
+                break
+            end
+        end
+    end
+
+    if foundLake then
+        print("Found magic lake")
+        for _, v in pairs(game:GetService("Workspace").__THINGS.__INSTANCE_CONTAINER.Active.AdvancedDigsite.Important.ActiveBlocks:GetChildren()) do
+            if v:IsA("Part") then
+                if v:FindFirstChild("Firefly") then
+
+                    local function digMagicLiquid()
+                        checkForChests()
+                        local block
+                        for _, v2 in pairs(game:GetService("Workspace").__THINGS.__INSTANCE_CONTAINER.Active.AdvancedDigsite.Important.ActiveBlocks:GetChildren()) do
+                            if v2:IsA("BasePart") then
+                                if v2 == v then
+                                    block = v2
+                                end
+                            end
+                        end
+
+                        if block then
+                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = block.CFrame + Vector3.new(0, 3, 0)
+                            game:GetService("ReplicatedStorage").Network:WaitForChild("Instancing_FireCustomFromClient"):FireServer("AdvancedDigsite", "DigBlock", block:GetAttribute('Coord'))
+                            task.wait()
+                            digMagicLiquid()
+                        end
+                    end
+
+                    digMagicLiquid()
+                end
+            end
+        end
+    end
+end
 
 local function beginCycle()
     for curPos, _ in positions do
