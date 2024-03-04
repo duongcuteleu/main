@@ -1,5 +1,4 @@
 
-
 getgenv().autoDigsiteConfig = {
     OPTIMIZE_GAME = true, -- Set to true to optimize the game by removing unnecessary parts
     DIGSITE_RESET_DELAY = 10, -- Amount of time in seconds to wait before starting the script back up after the digsite resets
@@ -12,7 +11,15 @@ getgenv().autoDigsiteConfig = {
 local digsiteReset = false
 
 local positions = {
-    [1] = Vector3.new(14, 120, 1),
+    [1] = Vector3.new(14, 120, 3),
+    [2] = Vector3.new(14, 120, 9),
+    [3] = Vector3.new(14, 120, 14),
+    [4] = Vector3.new(8, 120, 3),
+    [5] = Vector3.new(8, 120, 9),
+    [6] = Vector3.new(8, 120, 14),
+    [7] = Vector3.new(3, 120, 3),
+    [8] = Vector3.new(3, 120, 9),
+    [9] = Vector3.new(3, 120, 14)
 }
 
 
