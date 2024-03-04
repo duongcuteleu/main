@@ -5,8 +5,8 @@ task.wait(15)
 
 
 local OPTIMIZE_GAME = true -- Set to true to optimize the game by removing unnecessary parts
-local DIGSITE_RESET_DELAY = 5 -- Amount of time in seconds to wait before starting the script back up after the digsite resets
-local CHEST_BREAK_DELAY = 1 -- Amount of time in seconds to wait before breaking a chest
+local DIGSITE_RESET_DELAY = 8 -- Amount of time in seconds to wait before starting the script back up after the digsite resets
+local CHEST_BREAK_DELAY = 2 -- Amount of time in seconds to wait before breaking a chest
 local DIG_DEPTH = 120
 local UNBROKEN_BLOCK_THRESHOLD = 250
 
