@@ -1,5 +1,11 @@
-
-
+getgenv().autoDigsiteConfig = {
+    OPTIMIZE_GAME = true, -- Set to true to optimize the game by removing unnecessary parts
+    DIGSITE_RESET_DELAY = 10, -- Amount of time in seconds to wait before starting the script back up after the digsite resets
+    LOAD_DELAY = 5,
+    CHEST_BREAK_DELAY = 2, -- Amount of time in seconds to wait before breaking a chest
+    DIG_DEPTH = 120,
+    UNBROKEN_BLOCK_THRESHOLD = 150
+}
 
 local digsiteReset = false
 
@@ -30,21 +36,6 @@ local function checkForChests()
 end
 
 
-
-                        if block then
-                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = block.CFrame + Vector3.new(0, 3, 0)
-                            game:GetService("ReplicatedStorage").Network:WaitForChild("Instancing_FireCustomFromClient"):FireServer("AdvancedDigsite", "DigBlock", block:GetAttribute('Coord'))
-                            task.wait()
-                            digMagicLiquid()
-                        end
-                    end
-
-                    digMagicLiquid()
-                end
-            end
-        end
-    end
-end
 
 local function beginCycle()
     for curPos, _ in positions do
