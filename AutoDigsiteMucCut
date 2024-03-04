@@ -233,7 +233,7 @@ end
 
 
 task.spawn(function()
-    while #game:GetService("Workspace").__THINGS.__INSTANCE_CONTAINER.Active.AdvancedDigsite.Important.ActiveBlocks:GetChildren() > 336 do -- MAX WILL BE 336
+    while #game:GetService("Workspace").__THINGS.__INSTANCE_CONTAINER.Active.AdvancedDigsite.Important.ActiveBlocks:GetChildren() > 336 do -- MAX WILL BE 999
 
         task.wait()
     end
