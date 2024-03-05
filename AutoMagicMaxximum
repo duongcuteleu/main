@@ -181,23 +181,6 @@ end
 
 
 
-if not game:GetService("Workspace").__THINGS.__INSTANCE_CONTAINER.Active:FindFirstChild("AdvancedDigsite") then
-    game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame = game:GetService("Workspace").__THINGS.Instances.AdvancedDigsite.Teleports.Enter.CFrame
-
-    local loaded = false
-
-    local detectLoad = game:GetService("Workspace").__THINGS.__INSTANCE_CONTAINER.Active.ChildAdded:Connect(function(child)
-        if child.Name == "AdvancedDigsite" then
-            loaded = true
-        end
-    end)
-
-    repeat
-        task.wait()
-    until loaded
-    detectLoad:Disconnect()
-    task.wait(getgenv().autoDigsiteConfig.LOAD_DELAY)
-end
 
 
 
