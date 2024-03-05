@@ -169,6 +169,8 @@ end
 
 
 if getgenv().autoDigsiteConfig.OPTIMIZE_GAME then
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/fdvll/pet-simulator-99/main/cpuReducer.lua"))()
+    task.wait(10)
     for _, v in pairs(game:GetService("Workspace").__THINGS.__INSTANCE_CONTAINER.Active.AdvancedDigsite:GetChildren()) do
         pcall(function()
             if v.Name == "Ground" then
