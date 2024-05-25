@@ -1,1 +1,916 @@
-([[This file was protected with MoonSec V3]]):gsub('.+', (function(a) _PlscMrXIlvRt = a; end)); return(function(d,...)local c;local f;local r;local o;local t;local a;local e=24915;local n=0;local l={};while n<394 do n=n+1;while n<0x2b4 and e%0x3712<0x1b89 do n=n+1 e=(e*255)%23375 local u=n+e if(e%0x2674)>=0x133a then e=(e-0xac)%0xb2aa while n<0x385 and e%0x3094<0x184a do n=n+1 e=(e-1008)%45934 local u=n+e if(e%0x149a)<0xa4d then e=(e*0x24d)%0xc186 local e=96339 if not l[e]then l[e]=0x1 o=function(l)local e=0x01 local function n(n)e=e+n return l:sub(e-n,e-0x01)end while true do local l=n(0x01)if(l=="\5")then break end local e=f.byte(n(0x01))local e=n(e)if l=="\2"then e=r.QwkLhJRw(e)elseif l=="\3"then e=e~="\0"elseif l=="\6"then t[e]=function(e,n)return d(8,nil,d,n,e)end elseif l=="\4"then e=t[e]elseif l=="\0"then e=t[e][n(f.byte(n(0x01)))];end local n=n(0x08)r[n]=e end end end elseif e%2~=0 then e=(e-0x367)%0x67cf local e=66127 if not l[e]then l[e]=0x1 a="\4\8\116\111\110\117\109\98\101\114\81\119\107\76\104\74\82\119\0\6\115\116\114\105\110\103\4\99\104\97\114\108\116\83\95\89\116\100\120\0\6\115\116\114\105\110\103\3\115\117\98\86\104\72\113\68\110\122\75\0\6\115\116\114\105\110\103\4\98\121\116\101\77\119\98\101\101\122\114\86\0\5\116\97\98\108\101\6\99\111\110\99\97\116\67\112\95\71\102\114\74\115\0\5\116\97\98\108\101\6\105\110\115\101\114\116\70\102\110\103\71\100\73\104\5";end else e=(e-0x2c)%0x63b5 n=n+1 local e=55009 if not l[e]then l[e]=0x1 end end end elseif e%2~=0 then e=(e+0x3bd)%0x53c0 while n<0x205 and e%0x38ac<0x1c56 do n=n+1 e=(e-193)%39075 local t=n+e if(e%0xf88)>=0x7c4 then e=(e*0x2d)%0xa93d local e=43465 if not l[e]then l[e]=0x1 r={};end elseif e%2~=0 then e=(e*0x35f)%0x519d local e=35353 if not l[e]then l[e]=0x1 end else e=(e-0x363)%0x2d93 n=n+1 local e=67382 if not l[e]then l[e]=0x1 f=string;end end end else e=(e*0x2c4)%0x30fe n=n+1 while n<0xac and e%0x25f8<0x12fc do n=n+1 e=(e+471)%41184 local o=n+e if(e%0x3010)>0x1808 then e=(e*0x3a0)%0x406b local e=86966 if not l[e]then l[e]=0x1 c=tonumber;end elseif e%2~=0 then e=(e*0x2f1)%0xbea9 local e=5447 if not l[e]then l[e]=0x1 t=getfenv and getfenv();end else e=(e*0x268)%0x5b24 n=n+1 local e=25666 if not l[e]then l[e]=0x1 t=(not t)and _ENV or t;end end end end end e=(e*127)%9075 end o(a);local e={};for n=0x0,0xff do local l=r.ltS_Ytdx(n);e[n]=l;e[l]=n;end local function u(n)return e[n];end local f=(function(f,o)local a,l=0x01,0x10 local n={{},{},{}}local t=-0x01 local e=0x01 local d=f while true do n[0x03][r.VhHqDnzK(o,e,(function()e=a+e return e-0x01 end)())]=(function()t=t+0x01 return t end)()if t==(0x0f)then t=""l=0x000 break end end local t=#o while e<t+0x01 do n[0x02][l]=r.VhHqDnzK(o,e,(function()e=a+e return e-0x01 end)())l=l+0x01 if l%0x02==0x00 then l=0x00 r.FfngGdIh(n[0x01],(u((((n[0x03][n[0x02][0x00]]or 0x00)*0x10)+(n[0x03][n[0x02][0x01]]or 0x00)+d)%0x100)));d=f+d;end end return r.Cp_GfrJs(n[0x01])end);o(f(119,"Oz.DC%NF9qxA5nRf9R"));o(f(191,"GNFrox8W ?hTjbQYoN  r8W TWQYrx8YobQQoPW?Tbb8rQ Wj QoFh Nh8?hbj  TjYToW  hNQ8oh Fj?YNr88888hTxW?hbFN xYhxTNYTrjWWbjF x?roWTF?8ThhQFF 8FoNQhNYWrhrQ?Nxo8hYQYrxo?ThbYjhwYT?QQoFWWxxYbr8W jj%xF8 QhJVWxu8NT81jQFFTbr+8x8?6j?N?oW?Tj?fTx8?>boNhxoh QrRWxr?TW Tjoj?jbTFb8?hbhYFr8j?zbNFQx?T8jYj?ahTQQ?rFWQ bYjrxxoTFbNrrx8xx?xHQ8rT QjrF  jrYxFoFF8WNoxa?xbWN8oQ?ojQQQo  QTjNooo?QbYTtY8h8boN88N?TWbFb8WhhbjNY8  TbrFYxM?8joFhWNoh brbWWThQjFYW ?YY?rjWQj?bQNjxWxh?jo  Tjrz?xK WToQ?oW Yj8*YxxF?8jNhob?xjY5Q8m?YQoNWo h!bxFFx?rxWhFox?hbQFjO8Fh?QbFQWFhbY rb8r? QTF/8YoQ"));local e=(-2167+(function()local o,t=0,1;(function(e,n,l)e(e(e,l,e),l(n,l,n),n(e and n,e,n))end)(function(l,n,e)if o>159 then return n end o=o+1 t=(t+704)%5003 if(t%1474)>737 then t=(t-522)%42771 return l else return e(l(l,e,l),e(e,l,e),n(n,e,l))end return e(e(n,e,l)and n(e,e,l),n(e,e and l,n),n(e,n,n))end,function(e,l,n)if o>103 then return e end o=o+1 t=(t-130)%42057 if(t%1910)<=955 then return e else return n(l(e and e,e,e),n(n,n,n and n)and n(n,n,n and l),n(l and l,e,l))end return e(n(e,e,e),e(e and e,e and l,e),l(n,l,l and l)and n(l,l,l))end,function(n,e,l)if o>137 then return l end o=o+1 t=(t+584)%7410 if(t%1012)<506 then return e else return l(n(l,e,e),e(l,n,e),l(e,n,n))end return e(n(n,l and l,e),e(n,n,n and n),l(e and e,l and n,l))end)return t;end)())local le=(getfenv)or(function()return _ENV end);local h=r.QjlmwKHB or r.MToOTAfl;local y=1;local t=2;local u=4;local o=3;local function p(s,...)local b=f(e,"4_GZ.V6<Cbu>L;#,Vbu.,6.Cb>,TZ#bW#Gb>#<.VC,<;G_Gc<GL.<#;LG#<L;_#uZ_CZ_CVbL_LuVVub56.Lu>#u.,b,#Z.GCV#ZZ.CLL,GuCGC#_V<ZLZ;<.CuR#GZZb_#GGbC;LLG_CGLbo_6C#>Z<CC;ZG_CV;6GZ6C>;_#6V<;o;VZu;w._<<#,V.VuZ#>.CC>ub=>Cu;<G<<Z;__,6_u#u;7VV7uG,.C#1LV#uL;V.Vu6CV,;GC<uLL<G;CG>C<C6_#<ZLC_ZGpLbWV6b6CYuV#u;U..<b<,uZ;C#bL.VCb#6GLZ6>VGb<>LLyZ6<><L6.#<;b;,C.{bG#.uG,<Z>b8,_..b.;;Z.<,6>;V3#6P>GV_LV_<6Cb,SZVZu_#<Vuuu,Z.ubV,Z_uC;;uGL<,;u,,C.;6G6f<6Vuu,L.#,,.G>wib.>C<,#Z6<b##.u<C#LLuGu6#Lp_G6.LugCVuuL,,VluG,.VCuV#uZLC##6ZGC.;6Zub.LL_#<WLb_.66>CZS6,u#v{VGuu,6.bbu,aZ#b.,ZZ.C6;CZ/<LL,GU<GLb_66C>u:;V#>1OG66>L,C.ubL,Z.=bG#..CbG;uG;<#;_GG<.L6ZC<b>L-,6*>Zq.VbuC?LVVb#,Z.Gb6#6ZCCu;LZVC{;ZG.<bLC_u6L>#_.6G>.c6VCuu,#.#u!^8..b6#CZ>CL;,ZPCG#nG6<CLu_;6#LR_G6.>6pCVu");local n=0;r.DHkbhOSB(function()r.BphFcAbD()n=n+1 end)local function e(l,e)if e then return n end;n=l+n;end local l,n,a=d(0,d,e,b,r.MwbeezrV);local function f()local n,l=r.MwbeezrV(b,e(1,3),e(5,6)+2);e(2);return(l*256)+n;end;local _=true;local _=0 local function j()local e=n();local n=n();local o=1;local t=(l(n,1,20)*(2^32))+e;local e=l(n,21,31);local n=((-1)^l(n,32));if(e==0)then if(t==_)then return n*0;else e=1;o=0;end;elseif(e==2047)then return(t==0)and(n*(1/0))or(n*(0/0));end;return r.PwHnvFZo(n,e-1023)*(o+(t/(2^52)));end;local p=n;local function k(n)local l;if(not n)then n=p();if(n==0)then return'';end;end;l=r.VhHqDnzK(b,e(1,3),e(5,6)+n-1);e(n)local e=""for n=(1+_),#l do e=e..r.VhHqDnzK(l,n,n)end return e;end;local _=#r.F_dQhWpp(c('\49.\48'))~=1 local e=n;local function ee(...)return{...},r.rvhXocoe('#',...)end local function z()local c={};local h={};local e={};local b={h,c,nil,e};local e=n()local d={}for t=1,e do local l=a();local e;if(l==0)then e=(a()~=#{});elseif(l==3)then local n=j();if _ and r.SCkjoBrV(r.F_dQhWpp(n),'.(\48+)$')then n=r.lvz_SeYg(n);end e=n;elseif(l==1)then e=k();end;d[t]=e;end;b[3]=a();for c=1,n()do local e=a();if(l(e,1,1)==0)then local r=l(e,2,3);local a=l(e,4,6);local e={f(),f(),nil,nil};if(r==0)then e[o]=f();e[u]=f();elseif(r==#{1})then e[o]=n();elseif(r==s[2])then e[o]=n()-(2^16)elseif(r==s[3])then e[o]=n()-(2^16)e[u]=f();end;if(l(a,1,1)==1)then e[t]=d[e[t]]end if(l(a,2,2)==1)then e[o]=d[e[o]]end if(l(a,3,3)==1)then e[u]=d[e[u]]end h[c]=e;end end;for e=1,n()do c[e-(#{1})]=z();end;return b;end;local function g(l,n,e)local t=n;local t=e;return c(r.SCkjoBrV(r.SCkjoBrV(({r.DHkbhOSB(l)})[2],n),e))end local function m(_,e,c)local function ne(...)local f,m,s,g,b,l,a,p,k,j,z,n;local e=0;while-1<e do if e>=3 then if 5<=e then if 4<=e then repeat if e>5 then e=-2;break;end;n=d(7);until true;else n=d(7);end else if 4~=e then p={};k={...};else j=r.rvhXocoe('#',...)-1;z={};end end else if 0<e then if e<2 then s=d(6,45,3,51,_);b=ee g=0;else l=-41;a=-1;end else f=d(6,62,1,28,_);m=d(6,47,2,8,_);end end e=e+1;end;for e=0,j do if(e>=s)then p[e-s]=k[e+1];else n[e]=k[e+1];end;end;local e=j-s+1 local e;local d;local function r(...)while true do end end while true do if l<-40 then l=l+42 end e=f[l];d=e[y];if d>11 then if d<=17 then if 14>=d then if 13>d then n[e[t]]=(e[o]~=0);else if d>=11 then repeat if d~=13 then local e=e[t]n[e]=n[e](h(n,e+1,a))break;end;n[e[t]]();until true;else local e=e[t]n[e]=n[e](h(n,e+1,a))end end else if d>=16 then if d>13 then repeat if 17~=d then local e=e[t]n[e]=n[e](h(n,e+1,a))break;end;l=e[o];until true;else l=e[o];end else n[e[t]]=c[e[o]];end end else if d>=21 then if d>21 then if 22<d then n[e[t]]();else n[e[t]]=c[e[o]];end else l=e[o];end else if d<19 then c[e[o]]=n[e[t]];else if d>17 then for r=47,63 do if 20>d then local d,u,f,r,a;local l=0;while l>-1 do if l<3 then if l>0 then if l>0 then repeat if l<2 then u=t;break;end;f=o;until true;else u=t;end else d=e;end else if l>4 then if l>=4 then for e=29,89 do if l~=6 then n(a,r);break;end;l=-2;break;end;else n(a,r);end else if l>2 then repeat if 3<l then a=d[u];break;end;r=d[f];until true;else r=d[f];end end end l=l+1 end break;end;for d=0,3 do if 2<=d then if d~=1 then repeat if 3>d then n[e[t]]=c[e[o]];l=l+1;e=f[l];break;end;if(n[e[t]]~=e[u])then l=l+1;else l=e[o];end;until true;else if(n[e[t]]~=e[u])then l=l+1;else l=e[o];end;end else if-3~=d then for r=30,82 do if 0<d then c[e[o]]=n[e[t]];l=l+1;e=f[l];break;end;n[e[t]]=(e[o]~=0);l=l+1;e=f[l];break;end;else c[e[o]]=n[e[t]];l=l+1;e=f[l];end end end break;end;else local d,f,a,r,u;local l=0;while l>-1 do if l<3 then if l>0 then if l>0 then repeat if l<2 then f=t;break;end;a=o;until true;else f=t;end else d=e;end else if l>4 then if l>=4 then for e=29,89 do if l~=6 then n(u,r);break;end;l=-2;break;end;else n(u,r);end else if l>2 then repeat if 3<l then u=d[f];break;end;r=d[a];until true;else r=d[a];end end end l=l+1 end end end end end else if 5>=d then if 3>d then if d>=1 then if d>0 then repeat if 1<d then do return end;break;end;n[e[t]]=(e[o]~=0);until true;else n[e[t]]=(e[o]~=0);end else local t=e[t];local l=n[e[o]];n[t+1]=l;n[t]=l[e[u]];end else if 4<=d then if 1~=d then for r=12,95 do if 5>d then if(n[e[t]]~=e[u])then l=l+1;else l=e[o];end;break;end;do return end;break;end;else do return end;end else c[e[o]]=n[e[t]];end end else if 8<d then if d<10 then local l=e[t]local t,e=b(n[l](h(n,l+1,e[o])))a=e+l-1 local e=0;for l=l,a do e=e+1;n[l]=t[e];end;else if d>7 then for r=16,86 do if d~=11 then local d,s,_,j,r;n[e[t]]=c[e[o]];l=l+1;e=f[l];d=e[t];s=n[e[o]];n[d+1]=s;n[d]=s[e[u]];l=l+1;e=f[l];n(e[t],e[o]);l=l+1;e=f[l];d=e[t]_,j=b(n[d](h(n,d+1,e[o])))a=j+d-1 r=0;for e=d,a do r=r+1;n[e]=_[r];end;l=l+1;e=f[l];d=e[t]n[d]=n[d](h(n,d+1,a))l=l+1;e=f[l];n[e[t]]();l=l+1;e=f[l];do return end;break;end;local l=e[t]local t,e=b(n[l](h(n,l+1,e[o])))a=e+l-1 local e=0;for l=l,a do e=e+1;n[l]=t[e];end;break;end;else local d,s,j,_,r;n[e[t]]=c[e[o]];l=l+1;e=f[l];d=e[t];s=n[e[o]];n[d+1]=s;n[d]=s[e[u]];l=l+1;e=f[l];n(e[t],e[o]);l=l+1;e=f[l];d=e[t]j,_=b(n[d](h(n,d+1,e[o])))a=_+d-1 r=0;for e=d,a do r=r+1;n[e]=j[r];end;l=l+1;e=f[l];d=e[t]n[d]=n[d](h(n,d+1,a))l=l+1;e=f[l];n[e[t]]();l=l+1;e=f[l];do return end;end end else if d>=7 then if d>5 then for l=26,65 do if d~=7 then n(e[t],e[o]);break;end;local t=e[t];local l=n[e[o]];n[t+1]=l;n[t]=l[e[u]];break;end;else local l=e[t];local t=n[e[o]];n[l+1]=t;n[l]=t[e[u]];end else if(n[e[t]]~=e[u])then l=l+1;else l=e[o];end;end end end end l=1+l;end;end;return ne end;local t=0xff;local u={};local d=(1);local o='';(function(n)local l=n local f=0x00 local e=0x00 l={(function(a)if f>0x2f then return a end f=f+1 e=(e+0x1117-a)%0x3b return(e%0x03==0x0 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x2c);o={o..'\58 a',o};u[d]=z();d=d+((not r.HowwRWmQ)and 1 or 0);o[1]='\58'..o[1];t[2]=0xff;end return true end)'hSoMO'and l[0x2](0x99+a))or(e%0x03==0x1 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x3e);u[d]=le();d=d+t;end return true end)'BpQtB'and l[0x3](a+0x18e))or(e%0x03==0x2 and(function(l)if not n[l]then e=e+0x01 n[l]=(0xe5);o='\37';t={function()t()end};o=o..'\100\43';end return true end)'_zqUf'and l[0x1](a+0x10c))or a end),(function(r)if f>0x23 then return r end f=f+1 e=(e+0x124f-r)%0x44 return(e%0x03==0x2 and(function(l)if not n[l]then e=e+0x01 n[l]=(0xb8);end return true end)'IRLtc'and l[0x3](0x28c+r))or(e%0x03==0x1 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x31);end return true end)'FdIAD'and l[0x2](r+0x19d))or(e%0x03==0x0 and(function(l)if not n[l]then e=e+0x01 n[l]=(0xf9);t[2]=(t[2]*(g(function()u()end,h(o))-g(t[1],h(o))))+1;u[d]={};t=t[2];d=d+t;end return true end)'YfTnd'and l[0x1](r+0x157))or r end),(function(t)if f>0x2e then return t end f=f+1 e=(e+0x91d-t)%0x17 return(e%0x03==0x0 and(function(l)if not n[l]then e=e+0x01 n[l]=(0xe4);end return true end)'CZChs'and l[0x3](0x31e+t))or(e%0x03==0x1 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x15);end return true end)'COBiE'and l[0x1](t+0x2e9))or(e%0x03==0x2 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x3a);end return true end)'JlrRC'and l[0x2](t+0x343))or t end)}l[0x1](0x96e)end){};local e=m(h(u));return e(...);end return p((function()local n={}local e=0x01;local l;if r.HowwRWmQ then l=r.HowwRWmQ(p)else l=''end if r.SCkjoBrV(l,r.yDMMGkvf)then e=e+0;else e=e+1;end n[e]=0x02;n[n[e]+0x01]=0x03;return n;end)(),...)end)((function(e,l,n,t,o,d)local d;if e>3 then if e>5 then if e<7 then do return o[n]end;else if 3<e then for l=13,96 do if e<8 then do return setmetatable({},{['__\99\97\108\108']=function(e,l,o,t,n)if n then return e[n]elseif t then return e else e[l]=o end end})end break;end;do return n(e,nil,n);end break;end;else do return n(e,nil,n);end end end else if e~=0 then for d=48,97 do if 4~=e then local e=t;do return function()local n=l(n,e(e,e),e(e,e));e(1);return n;end;end;break;end;local e=t;local d,r,f=o(2);do return function()local o,n,t,l=l(n,e(e,e),e(e,e)+3);e(4);return(l*d)+(t*r)+(n*f)+o;end;end;break;end;else local e=t;do return function()local n=l(n,e(e,e),e(e,e));e(1);return n;end;end;end end else if 2<=e then if e>1 then repeat if e~=2 then do return l(1),l(4,o,t,n,l),l(5,o,t,n)end;break;end;do return 16777216,65536,256 end;until true;else do return 16777216,65536,256 end;end else if 0~=e then do return function(n,e,l)if l then local e=(n/2^(e-1))%2^((l-1)-(e-1)+1);return e-e%1;else local e=2^(e-1);return(n%(e+e)>=e)and 1 or 0;end;end;end;else do return l(1),l(4,o,t,n,l),l(5,o,t,n)end;end end end end),...)
+--Digsite 1
+-- CTE HUB AUTO DIGSITE ULTRA BOOST FPS
+if not getgenv().Config then 
+	getgenv().Config = {
+		DigsiteStartLevel = 60,        
+		AutoSendGem = {
+			AccName = "", -- Put your account u want to sent gem to here
+			MinToSend = 5000000,
+			Enabled = false
+		},
+		AutoRejoin = {
+			RejoinMode = "Hop", -- Mode: Rejoin, Hop, Kick (rejon mean same server, hop = new server, Kick = Kick you out the game for the tool auto rejoin (use when u are using private server))
+			RejoinTime = 80, -- Will auto rejoin in 80 min (if you dont want auto rejoin just left it false (ex: AutoRejoin = false) recommended putting 80)
+			RejoinWhenThereIsNothingToFarm = true, -- Will rejoin when there is nothing to farm
+			RejonWhenFarmBreak = true -- Will rejoin when farm break (recommend to enable)
+		},
+		SendGemWebhook = "" -- put yout webhook link in here, will notify you when the gem is sent, if there is no webhook, just leave it blank
+	}
+end
+
+
+
+
+
+repeat wait() until game:IsLoaded()
+repeat wait() until game.Players.LocalPlayer
+local plr = game.Players.LocalPlayer
+repeat wait() until plr.Character
+repeat wait() until plr.Character:FindFirstChild("HumanoidRootPart")
+repeat wait() until plr.Character:FindFirstChild("Humanoid")
+repeat wait() until workspace:FindFirstChild("__THINGS")
+function Rejoin() 
+	if getgenv().Config.AutoRejoin.RejoinMode == "Hop" then 
+		Hop()
+	elseif getgenv().Config.AutoRejoin.RejoinMode == "Kick" then
+		game.Players.LocalPlayer:Kick()
+	else
+		while wait(1) do 
+			game:GetService("TeleportService"):Teleport(game.PlaceId, plr)
+		end
+	end
+end
+if not getgenv().DigsiteStartLevel then getgenv().DigsiteStartLevel = 60 end
+if not getgenv().Config.AutoRejoin then getgenv().Config.AutoRejoin = {
+	RejoinMode = "Hop", -- Mode: Rejoin, Hop, Kick (rejon mean same server, hop = new server, Kick = Kick you out the game for the tool auto rejoin (use when u are using private server))
+	RejoinTime = 80, -- Will auto rejoin in 80 min (if you dont want auto rejoin just left it false (ex: AutoRejoin = false) recommended putting 80)
+	RejoinWhenThereIsNothingToFarm = true, -- Will rejoin when there is nothing to farm
+	RejonWhenFarmBreak = true -- Will rejoin when there is nothing to farm
+	} end
+if not getgenv().Config.AutoRejoin.RejoinTime then getgenv().Config.AutoRejoin.RejoinTime = math.huge end
+function SendHookCT(ct,content)
+	local HttpService = game:GetService("HttpService")
+	local tb = {
+		["content"] = content or "",
+		["embeds"] = {{
+			["title"] = "Pet Simulator 99",
+			["description"] = "",
+			["type"] = "rich",
+			["color"] = tonumber(0xffb4b4),
+			["fields"] = ct,
+			["footer"] = {
+				["icon_url"] = "https://media.discordapp.net/attachments/821058004178305044/1200079352667320401/roses.png",
+				["text"] = "CTE Hub (" .. os.date("%X") .. ")"
+			}
+		}}
+	}
+
+	local a =
+		request(
+			{
+				Url = getgenv().SendGemWebhook,
+				Method = "POST",
+				Body = HttpService:JSONEncode(tb),
+				Headers = {
+					["Content-Type"] = "application/json"
+				}
+			}
+		)
+	return a.Body
+end
+function GetHop() 
+	local PlaceID = game.PlaceId
+	local AllIDs = {}
+	local foundAnything = ""
+	local actualHour = os.date("!*t").hour
+	local Deleted = false
+	local File = pcall(function()
+		AllIDs = game:GetService('HttpService'):JSONDecode(readfile("NotSameServers.json"))
+	end)
+	if not File then
+		table.insert(AllIDs, actualHour)
+		writefile("NotSameServers.json", game:GetService('HttpService'):JSONEncode(AllIDs))
+	end
+	function TPReturner()
+		local Site;
+		if foundAnything == "" then
+			Site = game.HttpService:JSONDecode(game:HttpGet('https://games.roblox.com/v1/games/' .. PlaceID .. '/servers/Public?sortOrder=Asc&limit=100'))
+		else
+			Site = game.HttpService:JSONDecode(game:HttpGet('https://games.roblox.com/v1/games/' .. PlaceID .. '/servers/Public?sortOrder=Asc&limit=100&cursor=' .. foundAnything))
+		end
+		local ID = ""
+		if Site.nextPageCursor and Site.nextPageCursor ~= "null" and Site.nextPageCursor ~= nil then
+			foundAnything = Site.nextPageCursor
+		end
+		local num = 0;
+		for i,v in pairs(Site.data) do
+			local Possible = true
+			ID = tostring(v.id)
+			if tonumber(v.maxPlayers) > tonumber(v.playing) then
+				for _,Existing in pairs(AllIDs) do
+					if num ~= 0 then
+						if ID == tostring(Existing) then
+							Possible = false
+						end
+					else
+						if tonumber(actualHour) ~= tonumber(Existing) then
+							local delFile = pcall(function()
+								delfile("NotSameServers.json")
+								AllIDs = {}
+								table.insert(AllIDs, actualHour)
+							end)
+						end
+					end
+					num = num + 1
+				end
+				if Possible == true then
+					table.insert(AllIDs, ID)
+					wait()
+					pcall(function()
+						writefile("NotSameServers.json", game:GetService('HttpService'):JSONEncode(AllIDs))
+						wait()
+						game:GetService("TeleportService"):TeleportToPlaceInstance(PlaceID, ID, plr)
+					end)
+					wait(4)
+				end
+			end
+		end
+	end
+	function GetMemoListName()
+		local tab = {}
+		for k, v in pairs(game.Workspace.Toys:GetChildren()) do
+			if string.match(v.Name, "Memory Match") then
+				table.insert(tab, v.Name)
+			end
+		end
+		return tab
+	end
+	function Teleport()
+		while wait() do
+			pcall(function()
+				TPReturner()
+				if foundAnything ~= "" then
+					TPReturner()
+				end
+			end)
+		end
+	end
+	return Teleport
+end
+Hop = GetHop()
+
+if getgenv().Config.AutoSendGem and getgenv().Config.AutoSendGem.Enabled and getgenv().Config.AutoSendGem.AccName and getgenv().Config.AutoSendGem.MinToSend then 
+	spawn(function() 
+		local SaveModule = require(game.ReplicatedStorage.Library.Client.Save)
+		local plr = game.Players.LocalPlayer
+
+
+		local function GetItem(name)
+			for i,v in SaveModule.GetSaves()[plr].Inventory do
+				for i2,v2 in next, v do 
+					if v2['id'] == name then
+						return v2._am
+					end
+				end
+			end
+			return 0
+		end
+		function GetId(Info) 
+			local Type = Info.Type
+			if Info.Type then Info.Type = nil end
+			for i,v in SaveModule.GetSaves()[plr].Inventory do
+				if Type then 
+					if i == Type then 
+						for i2, v2 in v do
+							local AllInfoCorrect = true
+							for k,v in Info do 
+								if v2[k] ~= v then 
+									AllInfoCorrect = false
+									break
+								end
+							end
+							if AllInfoCorrect then
+								return {i, i2}
+							end
+						end
+					end
+				else
+					for i2, v2 in v do
+						local AllInfoCorrect = true
+						for k,v in Info do 
+							if v2[k] ~= v then 
+								AllInfoCorrect = false
+								break
+							end
+						end
+						if AllInfoCorrect then
+							return {i, i2}
+						end
+					end
+				end
+			end
+		end
+
+
+
+		local function sendMail(username, message, item, amount)
+			local itemTable = GetId(item)
+			local a1, b1
+			local a,b = pcall(function()
+				local args = {
+					[1] = username,
+					[2] = message or username,
+					[3] = itemTable[1], -- Pet/Fruit/...
+					[4] = itemTable[2], -- Id
+					[5] = amount
+				}
+				a1, b1 = game: GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Mailbox: Send"):InvokeServer(unpack(args))
+			end)
+			if getgenv().SendGemWebhook then 
+				spawn(function() 
+					SendHookCT({
+						{
+							name = "Sent Gem",
+							value = tostring(amount),
+							inline = false
+						},
+						{
+							name = "Player",
+							value = plr.Name,
+							inline = false
+						}
+					})
+				end)
+			end
+
+
+
+			if b or b1 then
+				warn('got error while sending mail',print(b,b1))
+			else
+				print('send mail success')
+			end
+		end
+
+
+
+		local ListSendMail = {}
+		function AddToSend(...) 
+			table.insert(ListSendMail,{...})
+		end
+		if game.Players.LocalPlayer.leaderstats["\240\159\146\142 Diamonds"].Value >= getgenv().Config.AutoSendGem.MinToSend then 
+			AddToSend(getgenv().Config.AutoSendGem.AccName, "rat chi la huhu luonn", {
+				id = "Diamonds",
+				Type = "Currency"
+			}, game.Players.LocalPlayer.leaderstats["\240\159\146\142 Diamonds"].Value - 20000)
+		end
+		wait(60)
+		for k,v in ListSendMail do 
+			sendMail(unpack(v))
+		end
+	end)
+
+end
+
+spawn(function() 
+	while wait(2) do 
+		local mb = game.ReplicatedStorage.Network["Mailbox: Get"]:InvokeServer()
+		if mb then 
+			local AllId = {}
+			for k,v in mb.Inbox do
+				table.insert(AllId,v.uuid) 
+			end
+			if #AllId > 0 then 
+				game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Claim"):InvokeServer(AllId)
+			end
+		end
+	end
+end)
+if true then 
+	getgenv().Note = "AccDig"
+
+
+	local PatternFarm = {
+		[tostring(Vector3.new(2,1,2))] = true
+	}
+	local ZoneSize = 8
+
+	local Ngang1 = 4
+
+	while Ngang1 < 8 do 
+		local i = 1
+		local StartBlock = Vector3.new(Ngang1 - 2,1,2)
+		while StartBlock.X < ZoneSize and StartBlock.Z < ZoneSize do 
+			PatternFarm[tostring(StartBlock)] = true
+			StartBlock = StartBlock + Vector3.new(i,0,i)
+		end
+		PatternFarm[tostring(Vector3.new(Ngang1,1,3))] = true
+		Ngang1 = Ngang1 + 3
+	end
+	PatternFarm[tostring(Vector3.new(ZoneSize-1,1,2))] = true
+	local Ngang2 = 4
+	while Ngang2 < 8 do 
+		local i = 1
+		local StartBlock = Vector3.new(2,1,Ngang2 - 2)
+		while StartBlock.X < ZoneSize and StartBlock.Z < ZoneSize do 
+			PatternFarm[tostring(StartBlock)] = true
+			StartBlock = StartBlock + Vector3.new(i,0,i)
+		end
+		PatternFarm[tostring(Vector3.new(3,1,Ngang2))] = true
+		Ngang2 = Ngang2 + 3
+	end     
+	PatternFarm[tostring(Vector3.new(2,1,ZoneSize - 1))] = true
+
+
+
+	repeat wait() until game:IsLoaded()
+	repeat wait() until game.Players.LocalPlayer
+	local plr = game.Players.LocalPlayer
+	repeat wait() until plr.Character
+	repeat wait() until plr.Character:FindFirstChild("HumanoidRootPart")
+	repeat wait() until plr.Character:FindFirstChild("Humanoid")
+	repeat wait() until workspace:FindFirstChild("__THINGS")
+	pcall(function() 
+		local Lighting = game.Lighting
+		Lighting.GlobalShadows = false
+		Lighting.FogEnd = 9e9
+		Lighting.ShadowSoftness = 0
+		local Lighting = game.Lighting
+		for k,v in Lighting:GetChildren() do v:Destroy() end
+		sethiddenproperty(Lighting, "Technology", 2)
+		settings().Rendering.QualityLevel = 1
+		settings().Rendering.MeshPartDetailLevel = Enum.MeshPartDetailLevel.Level04
+		for k,v in game:GetService("MaterialService"):GetChildren() do v:Destroy() end
+		game:GetService("MaterialService").Use2022Materials = false
+		workspace.ALWAYS_RENDERING:Destroy()
+
+	end)
+	------ Thay true = false cho dòng dưới sẽ trắng màn hình
+	game:GetService("RunService"):Set3dRenderingEnabled(true)
+
+
+	function Noclip()
+		for i, v in ipairs(plr.Character:GetDescendants()) do
+			if v:IsA("BasePart") and v.CanCollide == true then
+				v.CanCollide = false
+			end
+		end
+	end
+	game:GetService("RunService").Stepped:Connect(function()
+		if getgenv().noclip then
+			if plr.Character ~= nil then
+				Noclip()
+			end
+		end
+	end)
+	local MachineCmds = require(game.ReplicatedStorage.Library.Client.InstancingCmds)
+	function Enter(Name)
+		setthreadidentity(2)
+		pcall(function() 
+			MachineCmds.Enter(Name)
+		end)
+		setthreadidentity(7)
+	end
+	local old = require(game.ReplicatedStorage.Library.Client.UpgradeCmds).GetPower
+	require(game.ReplicatedStorage.Library.Client.UpgradeCmds).GetPower = function(...)
+		local a = ... 
+		if a == "Magnet" then 
+			return 10000
+		end
+		return old(...)
+	end
+	spawn(function() 
+		while wait() do
+			pcall(function()
+				if getgenv().noclip then 
+					if not plr.Character.HumanoidRootPart:FindFirstChild("Noclip") then 
+						local BV = Instance.new('BodyVelocity')
+						BV.Parent = plr.Character.HumanoidRootPart
+						BV.Velocity = Vector3.new(0, 0, 0)
+						BV.MaxForce = Vector3.new(9e9, 9e9, 9e9)
+						BV.Name = "Noclip"
+					end
+					if not plr.Character.HumanoidRootPart:FindFirstChild("Noclip1") then 
+						local BG = Instance.new('BodyGyro')
+						BG.P = 9e4
+						BG.Parent = plr.Character.HumanoidRootPart
+						BG.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+						BG.cframe = workspace.CurrentCamera.CoordinateFrame
+						BG.Name = "Noclip1"
+					end
+					plr.Character.Humanoid.PlatformStand = true
+				else
+					if plr.Character.HumanoidRootPart:FindFirstChild("Noclip") then 
+						plr.Character.HumanoidRootPart:FindFirstChild("Noclip"):Destroy()
+					end
+					plr.Character.Humanoid.PlatformStand = false
+					if plr.Character.HumanoidRootPart:FindFirstChild("Noclip1") then 
+						plr.Character.HumanoidRootPart:FindFirstChild("Noclip1"):Destroy()
+					end
+				end
+			end)
+		end
+	end)
+
+
+	local plr = game.Players.LocalPlayer
+	local vu = game:GetService("VirtualUser")
+	plr.Idled:connect(function()
+		vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		wait(1)
+		vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+	end)
+	local old 
+	old = hookmetamethod(game,"__namecall",(function(...) 
+		local self,arg = ...
+		if not checkcaller() then 
+			if getnamecallmethod() == "FireServer" and tostring(self) == "__BLUNDER" or tostring(self) == "Idle Tracking: Update Timer" or tostring(self) == "Move Server" then return end
+		end
+		return old(...)
+	end))
+	game.ReplicatedStorage.Network["Idle Tracking: Stop Timer"]:FireServer()
+	function TP(pos) 
+		pcall(function() 
+
+			plr.Character.HumanoidRootPart.CFrame = pos
+		end)
+	end
+	function CheckFarm() return true end
+	local Settings = {
+		DigsiteLevel = 60
+	}
+	function TPNormal(pos) 
+		pcall(function() 
+			plr.Character.HumanoidRootPart.CFrame = pos
+		end)
+	end
+	function DigChest(pos,DigsiteZone) 
+		local args = {
+			[1] = DigsiteZone,
+			[2] = "DigChest",
+			[3] = pos
+		}
+
+		game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Instancing_FireCustomFromClient"):FireServer(unpack(args))
+	end
+
+	function DigBlock(pos,DigsiteZone) 
+		game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Instancing_FireCustomFromClient"):FireServer(DigsiteZone,"DigBlock",pos)
+	end
+	local function GetCoordId(Block) 
+		if Block:GetAttribute("Coord") then 
+			local Coord = Block:GetAttribute("Coord")
+			return Coord.X + Coord.Y * 10 + Coord.Z * 1000
+		end
+	end
+	local SetupFolder
+	local Level = 3
+	local FarmedCoin = true
+	local LastFixOrb = tick()
+	local SetupedOrb
+	local Orbs = {}  
+	local Multiple = {} 
+
+	local ListChest = {}
+	local ListBlock = {}
+
+	function CheckForStuff() 
+		if game.ReplicatedStorage.Network:FindFirstChild("Orbs: Create") and not getgenv().OrbConnections then      
+			getgenv().OrbConnections = game.ReplicatedStorage.Network:WaitForChild("Orbs: Create").OnClientEvent:Connect(function(v) 
+				for k,v in v do 
+					if tonumber(v.id) then 
+						table.insert(Orbs,v.id)
+					end
+				end
+			end)
+		end
+		if game.ReplicatedStorage.Network:FindFirstChild("Lootbags_Create") and not getgenv().LootBagConnections then 
+			getgenv().LootBagConnections = game.ReplicatedStorage.Network:FindFirstChild("Lootbags_Create").OnClientEvent:Connect(function(v) 
+				local args = {
+					[1] = {
+						[1] = v.uid
+					}
+				}
+				game:GetService("ReplicatedStorage").Network.Lootbags_Claim:FireServer(unpack(args))
+			end)
+		end
+		if tick() - LastFixOrb > 1 and getgenv().OrbConnections then 
+			if #Orbs > 0 then 
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Orbs: Collect"):FireServer(Orbs)
+				table.clear(Orbs)
+			end
+			if #Multiple > 0 then 
+				game:GetService("ReplicatedStorage").Network.Orbs_ClaimMultiple:FireServer({Multiple})
+				table.clear(Multiple)
+			end
+			LastFixOrb = tick()
+		end
+		if getgenv().OrbConnections and not getgenv().FireCusFromSv then 
+			if game.ReplicatedStorage.Network:FindFirstChild("Instancing_FireCustomFromServer") then 
+				getgenv().FireCusFromSv = game.ReplicatedStorage.Network.Instancing_FireCustomFromServer.OnClientEvent:Connect(function(...) 
+					local name,cmd = ...
+					if name == "Digsite" then 
+						if cmd == "CreateBlock" then 
+							local name,cmd,Blocktype,none,coord,health = ...
+
+							local newcoord = Vector3.new(coord.X,1,coord.Z)
+							if PatternFarm[tostring(newcoord)] then 
+								ListBlock[tostring(coord)] = coord
+							end
+						end
+						if cmd == "DeleteBlock" then 
+							local name,cmd,coord = ...
+							ListBlock[tostring(coord)] = nil
+						end
+						if cmd == "CreateChest" then 
+							local name,cmd,Blocktype,coord,health = ...
+							ListChest[tostring(coord)] = coord
+						end
+						if cmd == "DeleteChest" then 
+							local name,cmd,coord = ...
+							ListChest[tostring(coord)] = nil
+						end
+					end
+				end)
+			end
+		end
+		if getgenv().OrbConnections and getgenv().FireCusFromSv and not getgenv().CoordToPosition then 
+			for k,v in getgc() do 
+				if type(v) == "function" and debug.getinfo(v).name == "toWorldCoord" and tostring(getfenv(v).script.Parent) == "Digsite" then 
+					getgenv().CoordToPosition = clonefunction(v)
+					break
+				end
+			end
+		end 
+		if getgenv().OrbConnections and getgenv().FireCusFromSv and getgenv().CoordToPosition and getgenv().LootBagConnections and getgenv().FarmedABlock
+		then 
+			return true
+		end
+	end
+	local SaveModule = require(game.ReplicatedStorage.Library.Client.Save)
+	local PlayerData = SaveModule:GetSaves()[plr]
+	local HasShovel
+	local HasDiamond
+	for k,v in PlayerData.Inventory.Misc do 
+		if string.match(v.id,"Shovel") and string.match(v.id,"Diamond") then 
+			HasDiamond = true
+		elseif string.match(v.id,"Shovel") then
+			HasShovel = true
+		end
+	end
+	function GetNearestTeleport() 
+		local s,e = pcall(function() 
+			local NearestTeleport
+			for k,v in workspace.__THINGS.Instances:GetChildren() do 
+				if v:FindFirstChild("Teleports") then 
+					if v.Teleports:FindFirstChild("Leave") then 
+						if not NearestTeleport then 
+							NearestTeleport = v
+						end
+						if plr:DistanceFromCharacter(v.Teleports.Leave.Position) < plr:DistanceFromCharacter(NearestTeleport.Teleports.Leave.Position) then 
+							NearestTeleport = v
+						end
+					end
+				end
+			end
+			return NearestTeleport
+		end)
+
+		if not s then return nil end
+		return e
+	end
+	if not HasShovel then 
+		Enter("Digsite")
+		wait(10)
+		local args = {
+			[1] = "Digsite",
+			[2] = "ClaimShovel"
+		}
+
+		game:GetService("ReplicatedStorage").Network.Instancing_FireCustomFromClient:FireServer(unpack(args))
+		wait(5)
+		local NearestTeleport = GetNearestTeleport()
+		if NearestTeleport then 
+			if plr:DistanceFromCharacter(NearestTeleport.Teleports.Leave.Position) < 1000 then 
+				plr.Character.HumanoidRootPart.CFrame = CFrame.new(NearestTeleport.Teleports.Leave.Position)
+				wait(3)
+			end
+		end
+	end
+	local Task = task.spawn(function() 
+		while wait() do 
+			local DigsiteZone = "Digsite"
+			local ZoneSize = 8
+			if pcall(function() return workspace.__THINGS.__INSTANCE_CONTAINER.Active[DigsiteZone].Important.ActiveBlocks end) and CheckFarm("Digsite") then
+				if Level > 900 then 
+ 				FarmedCoin = false
+				end
+				if not StoppedTp then 
+					local BlockFolder = workspace.__THINGS.__INSTANCE_CONTAINER.Active[DigsiteZone].Important.ActiveBlocks
+					if not BlockAddedEvent then 
+						local BlockAdded = function(Bloc) 
+							if Bloc:GetAttribute("Coord") then 
+								local Coord = Bloc:GetAttribute("Coord")
+								if Settings.GocFarmDig then 
+									if Settings.GocFarmDig == 1 then 
+										Bloc.Name = tostring(Coord)
+									elseif Settings.GocFarmDig == 2 then
+										Coord = Vector3.new(17 - Coord.X,Coord.Y,17 - Coord.Z)
+										Bloc.Name = tostring(Coord)
+									end
+								else
+									Bloc.Name = tostring(Coord)
+								end
+								Bloc.Material = Enum.Material.Plastic
+								Bloc.Reflectance = 0
+								Bloc.CastShadow = false
+								Bloc:ClearAllChildren()
+							end
+						end
+						for k,v in workspace.__THINGS.__INSTANCE_CONTAINER.Active[DigsiteZone].Important.ActiveBlocks:GetChildren() do 
+							BlockAdded(v)
+						end
+						BlockAddedEvent = workspace.__THINGS.__INSTANCE_CONTAINER.Active[DigsiteZone].Important.ActiveBlocks.ChildAdded:Connect(BlockAdded)
+					else
+
+					end
+					local function CheckChest() 
+						if pcall(function() return workspace.__THINGS.__INSTANCE_CONTAINER.Active[DigsiteZone].Important.ActiveChests end) then 
+							local ChestFolder = workspace.__THINGS.__INSTANCE_CONTAINER.Active[DigsiteZone].Important.ActiveChests
+							for k,v in ChestFolder:GetChildren() do 
+								repeat wait() 
+									getgenv().noclip = true
+									if v.Parent and v.PrimaryPart then 
+										TPNormal(v.PrimaryPart.CFrame)
+										DigChest(v:GetAttribute("Coord"),DigsiteZone)
+									end
+								until not v.Parent or not ChestFolder.Parent or not pcall(function() return workspace.__THINGS.__INSTANCE_CONTAINER.Active[DigsiteZone].Important.ActiveChests end)
+							end
+						end
+					end
+					local ForceNextLevel 
+					local function FarmBlock(position) 
+						getgenv().FarmedABlock = true
+						CheckChest()
+						CheckForStuff()
+						if BlockFolder:FindFirstChild(tostring(position)) then 
+							if BlockFolder[tostring(position)].BrickColor == BrickColor.new("Really black") then ForceNextLevel = true return end
+							getgenv().noclip = true
+							local StartTime = tick()
+							FarmedCoin = true
+							repeat wait()
+								if BlockFolder:FindFirstChild(tostring(position)) then 
+									if StoppedTp then return end
+									TPNormal(BlockFolder:FindFirstChild(tostring(position)).CFrame)
+									DigBlock(BlockFolder[tostring(position)]:GetAttribute("Coord"),DigsiteZone)
+								end
+								if tick() - StartTime > 5 then 
+									return
+								end
+							until not BlockFolder:FindFirstChild(tostring(position)) or not BlockFolder.Parent
+						else
+							return true
+						end
+					end
+					Level = Level + 3
+					CheckChest()
+					for i = 1,Level do 
+						FarmBlock(Vector3.new(2,i,2))
+					end
+
+					local Ngang1 = 4
+					while Ngang1 < ZoneSize do 
+						local i = 1
+						local StartBlock = Vector3.new(Ngang1 - 2,Level,2)
+						while StartBlock.X < ZoneSize and StartBlock.Z < ZoneSize do 
+							FarmBlock(StartBlock)
+							StartBlock = StartBlock + Vector3.new(i,0,i)
+						end
+						FarmBlock(Vector3.new(Ngang1,Level,3))
+						Ngang1 = Ngang1 + 3
+					end
+					FarmBlock(Vector3.new(ZoneSize-1,Level,2))
+
+					local Ngang2 = 4
+					while Ngang2 < 8 do 
+						local i = 1
+						local StartBlock = Vector3.new(2,Level,Ngang2 - 2)
+						while StartBlock.X < ZoneSize and StartBlock.Z < ZoneSize do 
+							if ForceNextLevel then break end
+							FarmBlock(StartBlock)
+							StartBlock = StartBlock + Vector3.new(i,0,i)
+						end
+						FarmBlock(Vector3.new(3,Level,Ngang2))
+						Ngang2 = Ngang2 + 3
+					end     
+					FarmBlock(Vector3.new(2,Level,ZoneSize - 1))         
+				end
+			else
+				 if workspace.__THINGS.Instances:FindFirstChild(DigsiteZone) then 
+				     if workspace.__THINGS.Instances[DigsiteZone]:FindFirstChild("Teleports") and workspace.__THINGS.Instances[DigsiteZone].Teleports:FindFirstChild("Enter") then 
+				         TP(CFrame.new(workspace.__THINGS.Instances[DigsiteZone].Teleports.Enter.Position))
+				         wait(10)
+				     end
+				 end
+				Enter("Digsite")
+				wait(10)
+				if BlockAddedEvent then 
+					BlockAddedEvent:Disconnect()
+					BlockAddedEvent = nil
+				end
+				SetupFolder = false
+			end
+		end
+	end)
+	local StartTime = tick()
+	while wait(.1) do 
+		if CheckForStuff() then 
+			break;
+		end
+		if tick() - StartTime > 1800 then
+			Rejoin()
+		end
+	end
+	task.cancel(Task)
+
+
+	getgenv().noclip = true
+	for k,v in workspace:GetChildren() do 
+		if v.Name ~= plr.Name and v.Name ~= "__THINGS" and v.Name ~= "Camera"  then 
+			pcall(function() 
+				v:Destroy()
+			end)
+		end
+	end
+
+	pcall(function() 
+		for k,v in workspace.__THINGS:GetChildren() do 
+			if v.Name ~= "Orbs" and v.Name ~= "Pets" and v.Name ~= "__INSTANCE_CONTAINER" then 
+				v:Destroy()
+			end
+		end
+	end)
+
+	pcall(function() 
+		workspace.__THINGS.Orbs:ClearAllChildren()
+		workspace.__THINGS.Pets:ClearAllChildren()
+	end)
+	pcall(function() 
+		workspace.__THINGS.__INSTANCE_CONTAINER.ServerOwned:Destroy()
+	end)
+
+	pcall(function() 
+		for k,v in workspace.__THINGS.__INSTANCE_CONTAINER.Active.Digsite:GetChildren() do 
+			if v.Name ~= "Important" then 
+				v:Destroy()
+			end
+		end
+	end)
+	pcall(function() 
+		for k,v in workspace.__THINGS.__INSTANCE_CONTAINER.Active.Digsite.Important:GetChildren() do 
+			v:ClearAllChildren()
+		end
+	end)
+	if plr.PlayerScripts:FindFirstChild("Parallel Pet Actors") then 
+		plr.PlayerScripts:FindFirstChild("Parallel Pet Actors"):Destroy()
+	end
+	pcall(function() 
+		plr.PlayerScripts.Scripts:Destroy()
+	end)
+	pcall(function() 
+		for k,v in getrunningscripts() do pcall(function() v.Disabled = true end) v:Destroy() end
+	end)
+	pcall(function() 
+		for k,v in game:GetDescendants() do 
+			if v:IsA("RemoteEvent") then 
+				pcall(function() 
+					for k,v in getconnections(v.OnClientEvent) do 
+						if getfenv(v.Function).script ~= script then v:Disable() end
+					end
+				end)
+			end
+		end
+	end)
+
+	for k,v in plr.PlayerGui:GetChildren() do 
+		v:Destroy()
+	end
+
+	spawn(function() 
+		while true do 
+			local state = game:GetService("ReplicatedStorage").Network.Instancing_InvokeCustomFromClient:InvokeServer("Digsite","GetState")
+			table.clear(ListBlock)
+			table.clear(ListChest)
+
+			for k,v in state.Blocks do
+				local newcoord = Vector3.new(v.coord.X,1,v.coord.Z)
+				if PatternFarm[tostring(newcoord)] then 
+					ListBlock[tostring(v.coord)] = v.coord
+				end
+			end
+			for k,v in state.Chests do 
+				ListChest[tostring(v.coord)] = v.coord
+			end
+			print("Restarted")
+			wait(60)
+		end
+	end)
+	spawn(function() 
+		while wait(120) do 
+			game:GetService("ReplicatedStorage").Network.Instancing_PlayerEnterInstance:InvokeServer("Digsite")
+		end
+	end)
+	local Level = 50
+
+	local function GetCoordId(Block) 
+		local Coord = Block
+		return Coord.X + Coord.Y * 10 + Coord.Z * 1000
+	end
+	function CheckChest() 
+		for k,v in ListChest do 
+			TPNormal(CFrame.new(getgenv().CoordToPosition(v)))
+			local StartTime = tick()
+			repeat wait()         
+				print("Diging Chest",v)
+				DigChest(v,"Digsite") until not ListChest[k] or tick() - StartTime > 7
+		end
+		CheckForStuff()
+	end
+	function FarmBlock(position) 
+		CheckChest()
+		CheckForStuff()
+		if ListBlock[tostring(position)] then 
+			TPNormal(CFrame.new(getgenv().CoordToPosition(position)))
+			local StartTime = tick()    
+			repeat wait() 
+				TPNormal(CFrame.new(getgenv().CoordToPosition(position)))
+				DigBlock(position,"Digsite") until not ListBlock[tostring(position)] or tick() - StartTime > 7
+		end
+	end
+
+
+	local LastSendMessage = 0
+	local LastUpdateDiamond
+	local LastDiamond
+	if getgenv().Config.AutoRejoin.RejonWhenFarmBreak then 
+		spawn(function() 
+			if not LastUpdateDiamond then LastUpdateDiamond = tick() end
+			if not LastDiamond then LastDiamond = plr.leaderstats["\240\159\146\142 Diamonds"].Value end
+			if tick() - LastUpdateDiamond > 60 * 5 then 
+				if math.abs(plr.leaderstats["\240\159\146\142 Diamonds"].Value - LastDiamond) < 1000 then 
+					while wait() do Rejoin() end
+				end
+				LastUpdateDiamond = tick()
+				LastDiamond = plr.leaderstats["\240\159\146\142 Diamonds"].Value
+			end
+		end)
+	end
+	local ZoneSize = 8
+	local Level = getgenv().DigsiteStartLevel
+	local StartFarm = tick()
+	local NoFarm = 0
+	while wait() and tick() - StartFarm < getgenv().Config.AutoRejoin.RejoinTime * 60 do 
+		CheckForStuff()
+		if Level >= 220 then Level = getgenv().DigsiteStartLevel NoFarm = NoFarm + 1
+			if NoFarm > 3 then 
+				if getgenv().Config.AutoRejoin.RejoinMode == "Hop" then 
+					Rejoin()
+				end
+			end
+		end
+		Level = Level + 3
+		CheckChest()
+		for i = 1,Level do 
+			FarmBlock(Vector3.new(2,i,2))
+		end
+
+		local Ngang1 = 4
+		while Ngang1 < ZoneSize do 
+			local i = 1
+			local StartBlock = Vector3.new(Ngang1 - 2,Level,2)
+			while StartBlock.X < ZoneSize and StartBlock.Z < ZoneSize do 
+				FarmBlock(StartBlock)
+				StartBlock = StartBlock + Vector3.new(i,0,i)
+			end
+			FarmBlock(Vector3.new(Ngang1,Level,3))
+			Ngang1 = Ngang1 + 3
+		end
+		FarmBlock(Vector3.new(ZoneSize-1,Level,2))
+
+		local Ngang2 = 4
+		while Ngang2 < 8 do 
+			local i = 1
+			local StartBlock = Vector3.new(2,Level,Ngang2 - 2)
+			while StartBlock.X < ZoneSize and StartBlock.Z < ZoneSize do 
+				if ForceNextLevel then break end
+				FarmBlock(StartBlock)
+				StartBlock = StartBlock + Vector3.new(i,0,i)
+			end
+			FarmBlock(Vector3.new(3,Level,Ngang2))
+			Ngang2 = Ngang2 + 3
+		end     
+		FarmBlock(Vector3.new(2,Level,ZoneSize - 1))         
+	end
+	Rejoin()
+else
+end
