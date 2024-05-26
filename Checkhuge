@@ -6,7 +6,7 @@ screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 -- Tạo một TextBox
 local textBox = Instance.new("TextBox")
 textBox.Size = UDim2.new(0, 400, 0, 100)  -- Kích thước của TextBox (400x100 pixels)
-textBox.Position = UDim2.new(0.5, -100, 0.5, -25)  -- Vị trí của TextBox (ở giữa màn hình)
+textBox.Position = UDim2.new(0.5, -200, 0.5, -25)  -- Vị trí của TextBox (ở giữa màn hình)
 textBox.Text = "Enter text here"  -- Văn bản ban đầu của TextBox
 textBox.PlaceholderText = "Type something..."  -- Văn bản giữ chỗ
 textBox.TextColor3 = Color3.new(1, 1, 1)  -- Màu văn bản (trắng)
