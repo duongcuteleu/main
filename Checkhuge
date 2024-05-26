@@ -1,0 +1,43 @@
+local screenGui = Instance.new("ScreenGui")
+screenGui.Name = "MyScreenGui"
+screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+
+-- Tạo một TextBox
+local textBox = Instance.new("TextBox")
+textBox.Size = UDim2.new(0, 200, 0, 50)  -- Kích thước của TextBox (200x50 pixels)
+textBox.Position = UDim2.new(0.5, -100, 0.5, -25)  -- Vị trí của TextBox (ở giữa màn hình)
+textBox.Text = "Enter text here"  -- Văn bản ban đầu của TextBox
+textBox.PlaceholderText = "Type something..."  -- Văn bản giữ chỗ
+textBox.TextColor3 = Color3.new(1, 1, 1)  -- Màu văn bản (trắng)
+textBox.TextSize = 30  -- cỡ chữ
+textBox.Font = Enum.Font.SourceSansBold  -- In đậm
+textBox.BackgroundColor3 = Color3.new(0, 0, 0)  -- Màu nền (đen)
+textBox.Parent = screenGui  -- Gán TextBox vào ScreenGui
+--textBox.ZIndex = 99999 -- Nổi lên trên
+
+
+function demHugeTrongTui()
+	local TotalHuge = 0
+	local saveModule = require(game:GetService("ReplicatedStorage").Library.Client.Save)
+	local result = saveModule.Get()
+	local pet = result.Inventory.Pet
+	for i, v in pairs(pet) do
+		if string.match(v.id,"Huge") then
+			TotalHuge = TotalHuge + 1
+		end
+	end
+
+	textBox.Text = "Huge = "..TotalHuge
+	if TotalHuge > 0 then
+		textBox.BackgroundColor3 = Color3.new(1, 0, 0)
+	else
+		textBox.BackgroundColor3 = Color3.new(0, 0, 0)
+	end
+end
+spawn(function()
+	while true do
+		demHugeTrongTui()
+		wait(10)
+	end
+end)
